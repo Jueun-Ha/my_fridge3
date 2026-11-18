@@ -204,12 +204,6 @@ p { line-height: 1.7; }
 .food-list-panel .section-help { margin: 6px 0 10px; }
 .food-list-panel .empty-state { padding: 19px 12px; }
 
-/* 태블릿·모바일에서는 두 카드를 세로로 표시해 겹침 방지 */
-@media (max-width: 800px) {
-  .dashboard-grid { grid-template-columns: 1fr; gap: 12px; }
-  .page-heading { flex-direction: column; align-items: flex-start; gap: 3px; }
-}
-
 /* 작은 화면에서 입력 칸과 버튼이 겹치지 않도록 배치 */
 @media (max-width: 650px) {
   .intro-card { padding: 35px 24px; }
